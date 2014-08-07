@@ -24,3 +24,26 @@
 .pt-openantrag .antragstabelle .antrag .stepcolor {
 	width: 40px;
 }
+
+@media all and (max-width:640px) {
+	.pt-openantrag .antragstabelle {
+		display: block !important;
+	}
+	.pt-openantrag .antragstabelle .antrag {
+		display: block !important;
+	}
+	.pt-openantrag .antragstabelle .antrag > div, .pt-openantrag .antragstabelle .antrag > span {
+		display: block !important;
+	}
+	.pt-openantrag .antragstabelle .antrag.head {
+		display: none !important;
+	}
+	.pt-openantrag .antragstabelle .antrag .stepcolor {
+		display: none !important;
+	}
+	.pt-openantrag .antragstabelle .antrag .antragtitel {
+		border-top: none;
+		font-weight: bold;
+		padding-top: 0;
+	}
+}

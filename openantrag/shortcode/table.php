@@ -12,7 +12,7 @@
 			echo "<a href=\"".$val->FullUrl."\" class=\"antrag\">";
 			echo "<span class=\"stepcolor\" style=\"background-color:".$currentstep->ProcessStep->Color."\"></span>";
 			echo "<span>".$val->CreatedAt."<br><span style=\"white-space:nowrap;color:".$currentstep->ProcessStep->Color."\">".$currentstep->ProcessStep->ShortCaption."</span></span>";
-			echo "<span>".$val->Title."</span>";
+			echo "<span class=\"antragtitel\">".$val->Title."</span>";
 			echo "</a>";
 		}
 	}
