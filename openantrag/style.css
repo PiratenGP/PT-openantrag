@@ -1,0 +1,66 @@
+.wrap.pt-stimm form {
+	display: inline;
+}
+
+.wrap.pt-stimm table {
+	border-collapse: collapse;
+	background-color: #f5f5f5;
+}
+.wrap.pt-stimm table th {
+	background-color: #ddd;
+}
+.wrap.pt-stimm table td, .wrap.pt-stimm table th {
+	border: 1px solid black;
+	padding: 3px;
+}
+
+.wrap.pt-stimm button.del, .wrap.pt-stimm input.del {
+	color: red;
+	font-weight: bold;
+}
+
+.wrap.pt-stimm hr {
+	border-color: #999;
+}
+
+.wrap.pt-stimm textarea {
+	width: 600px;
+	height: 80px;
+}
+
+table.pt-stimm , table.pt-stimm  td,  table.pt-stimm   th {
+	border-left: none;
+	border-right: none;
+}
+
+table.pt-stimm .mitglied {
+	text-align: center;
+}
+
+
+/* Farben */
+
+.pt-stimm-stimme.stimm-ka {
+	/* background-color: ; */
+	/* color: ; */
+}
+.pt-stimm-stimme.stimm-yes {
+	background-color: #33B821;
+	/* color: ; */
+}
+.pt-stimm-stimme.stimm-no {
+	background-color: #CF6363;
+	/* color: ; */
+}
+.pt-stimm-stimme.stimm-x {
+	background-color: #EDE15A;
+	/* color: ; */
+}
+.pt-stimm-stimme.stimm-secret {
+	background-color: #000000;
+	color: #ffffff;
+}
+.pt-stimm-stimme.stimm-na {
+	/* background-color: ; */
+	/* color: ; */
+}
