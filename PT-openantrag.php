@@ -3,7 +3,7 @@
 Plugin Name: Piraten-Tools / OpenAntrag
 Plugin URI: https://github.com/PiratenGP/PT-openantrag
 Description: Zeigt Daten der Seite openantrag.de an.
-Version: 0.1.0
+Version: 0.1.1
 Author: @stoppegp
 Author URI: http://stoppe-gp.de
 License: CC-BY-SA 3.0
